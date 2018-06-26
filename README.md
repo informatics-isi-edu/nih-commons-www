@@ -52,7 +52,7 @@ A few options:
 - Run 'jekyll serve' or 'jekyll build' to build your site into the `\_site/` directory of your repo. Then rsync this to the /var/www/html/ directory of the intended server. 
 - Copy the jekyll framework into a /www/ subdirectory of the project/demo repo.
     - Add recipes similar to the facebase recipes and makefile/scripts
-- Copy the jekyll framework to a new repo `<demo-name>-www`
+- Fork the jekyll framework to a new repo `<demo-name>-www`
     - Add recipes similar to the rbk recipes and makefile/scripts
 
 I'll flesh out what those last two recipes/makefiles/scripts should look like.
