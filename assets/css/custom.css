@@ -27,7 +27,7 @@ html,body {
 	height: 100%;
 }
 
- body { padding-top: 70px; color: #212121;}
+ body { padding-top: 70px; color: #212121; font-size: 16px;}
 
  h1, h2, h3 {
   margin-top: 20px;
@@ -211,7 +211,7 @@ visibility: hidden;
 }
 
 #content {
-	padding-bottom: 90px;
+	padding-bottom: 120px;
 	width: 920px;
 	margin-left: 220px;
 }
