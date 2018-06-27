@@ -1,6 +1,6 @@
-name: "Demo name"
+name: "NIH-Commons Demo"
 
-description: "Demo name"
+description: "This is a demonstration of using DERIVA for NIH-Commons."
 
 markdown: rdiscount
 
