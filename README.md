@@ -51,7 +51,7 @@ We're still figuring out the best way to go.
 
 A few options:
 - Run `jekyll serve` or `jekyll build` to build your site into the `_site/` directory of your repo. Then rsync this to the `/var/www/html/` directory of the intended server. 
-    - Note that the `.gitignore` file prevents the `_site/` directory from being added to the repo.
+    - Note that the `.gitignore` file prevents the `_site/` directory from being added to the repo.  
 - Copy the jekyll framework into a /www/ subdirectory of the project/demo repo.
     - Add recipes similar to the facebase recipes and makefile/scripts
 - Fork the jekyll framework to a new repo `<demo-name>-www`
