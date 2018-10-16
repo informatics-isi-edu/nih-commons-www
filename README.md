@@ -1,10 +1,5 @@
-# deriva-web-template
-
-This repository contains a minimal Jekyll framework for a DERIVA demo static site to use with DERIVA demos and as the starting part of deployment static sites. It includes a homepage, link into chaise, About page, Privacy Policy page and Contact page.
-
-## Fork this repo
-
-Do not clone this repo. Fork it instead and then when we make improvements, you can update from master.
+# Static site pages for NIH Commons demo
+This repository contains a minimal Jekyll framework for a DERIVA demo. It includes a homepage, link into chaise, About page, Privacy Policy page and Contact page.
 
 ## Prequisites
 
@@ -24,12 +19,13 @@ Run ```gem install bundler jekyll```
 
 ## Configuring
 
-Update the following files:
+Update the following Markdown and Yaml files:
 
-- `_config.yml` - Update "name" and "description"
-- `index.html` - This is the homepage. Edit to include the name of the project/demo and at least a one line description. Include any specific links into Chaise that would be useful.
-- `about/index.html` - You can update the suggested content in there as necessary. But add at more description of the project/demo than is on the homepage and ideally include a related image.
-- `privacy-policy/index.html` - This is boilerplate content. But review to make sure it reflects the demo.
+- Homepage: `index.md` 
+- Navigation: `_data/nav.yml`
+- About page: `about/index.md`
+- Privacy Policy: `privacy-policy/index.md` - This is boilerplate content. But review to make sure it reflects the demo.
+- Contact page: `contact/index.md'
 
 To update the branding (using image or text in upper left corner of the navbar):
 
@@ -43,7 +39,7 @@ To update the branding (using image or text in upper left corner of the navbar):
     
 ## Reviewing locally
 
-Go to the root of your forked repository and run `jekyll serve`. You'll be able to see the generated HTML at `http://127.0.0.1:4000/`.
+Go to the root of the repository and run `jekyll serve`. You'll be able to see the generated HTML at `http://127.0.0.1:4000/`.
 
 ## Deploying site
 
@@ -57,4 +53,3 @@ A few options:
 - Fork the jekyll framework to a new repo `<demo-name>-www`
     - Add recipes similar to the rbk recipes and makefile/scripts
 
-I'll flesh out what those last two recipes/makefiles/scripts should look like.
