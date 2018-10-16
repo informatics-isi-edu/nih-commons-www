@@ -23,14 +23,7 @@ Users should be able to:
 
 Datasets presented in the demo include:
 
-* [GTEx public data set](/chaise/recordset/#1/public:KC7%20Search%20Demo/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBEBBAFSIGUBREkAGhCwAsUBLXJOeEAcRMoA8QAXQC+ooA) (15,598 samples). This data set includes metadata such as age, sex, tissue type, autolysis score, pathology notes, sequencing details, etc.
-* [EBI data](/chaise/recordset/#1/public:KC7%20Search%20Demo/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBEBBAFSIGUBREkAGhCwAsUBLXJOeESgIQEkQAXQC+IoA) (159 samples) available at [https://www.ebi.ac.uk/ena/data/view/PRJEB2784](https://www.ebi.ac.uk/ena/data/view/PRJEB2784). This data set includes metadata such as age, sex, cancer stage, smoking status, and tissue type.
-* [Combined GTEX/EBI](/chaise/recordset/#1/public:KC7%20Search%20Demo/) combines both datasets.
-
-Dataset Limitations:
-
-* *GTEx* datasets are not able to include CRAI files in the Bag export because no file length or md5 values were provided by the GTEx data stewards.</li>
-* *EBI* datasets have sequencing file information, but not *all* of the metadata associated with samples.
+* [GTEx public data set](/chaise/recordset/#1/demo:Samples) (15,598 samples). This data set includes metadata such as age, sex, tissue type, autolysis score, pathology notes, sequencing details, etc.
 
 ### Use cases
 
