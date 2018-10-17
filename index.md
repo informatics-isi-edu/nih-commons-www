@@ -50,7 +50,7 @@ Datasets presented in the demo include:
 
 1. The user is a data common participant who wants to create a virtual collection of samples with WGS VCF data that can be cited or shared with others.
 2. The user creates a collection describing the title and description of the collection.
-3. The user then adds samples to the collection by clicking "Add" on top of the Sample Collection table. Click [here](/chaise/recordset/#1/Common:Collection/RID=1-A52J) for the resulting Collection page.
+3. The user then adds samples to the collection by clicking "Add" on top of the Sample Collection table. Click [here](/chaise/record/#1/Common:Collection/RID=1-A52J) for the resulting Collection page.
 4. The user can remove memberships by clicking the "Unlink" button.
 5. The user who wants to cite this collection in their publications can request a DOI by setting the "Require DOI?" field to true. A DOI will be generated. Currently this process is manual. The automation process is planned for a future release.
 6. The user exports the data in the Collection by clicking "Export" on the Collection detail page (Upcoming).
