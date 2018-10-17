@@ -35,7 +35,7 @@ Datasets presented in the demo include:
 	1. Click on "Library Type" to expand the facet panel, then select "WGS."
 	2. Click on "WGS VCFS Files" to expand the facet panel, then select "All Records With Value."
 	
-	The search result shows the first 25 of 635 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0AvvKA) for the results page.	
+	The search result shows the first 25 of 591 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0Avu2TpseBKD4QARumjCQUHAFsUHMVNoA1AMIAxSbRt8ANjiS1JFALJMiAEQBMsgogZH6ynBAoAC60EGhOTnBRGGg4cvJAA) for the results page.	
 4. The user selects the individual samples in the results and navigates to it for more details by clicking the eye icon associated with the samples.
 
 #### Use case 2: Export metadata and VCF files of samples with samples with WGS VCF data in BDBag.
@@ -43,7 +43,7 @@ Datasets presented in the demo include:
 1. The user is a data common participant looking for information pertaining to samples with WGS VCF data and wants to export all the VCF data relevant to the samples.
 2. The user follows Use case 1 to search for samples with WGS VCF data.
 3. User logs in to the portal using Globus credentials to perform the export operation.
-4. The result pane on the right should show first 25 of 635 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0AvvKA) for the results page.
+4. The result pane on the right should show first 25 of 591 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0Avu2TpseBKD4QARumjCQUHAFsUHMVNoA1AMIAxSbRt8ANjiS1JFALJMiAEQBMsgogZH6ynBAoAC60EGhOTnBRGGg4cvJAA) for the results page.
 5. Click "Export" at the upper right corner to export the search result in the BDBag.
 
 #### Use case 3: Create a virtual collection of samples with WGS VCF data.
