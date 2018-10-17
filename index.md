@@ -27,28 +27,28 @@ Datasets presented in the demo include:
 
 ### Use cases
 
-#### Use case 1: Faceted search and browse lung samples with stage 4 cancer
+#### Use case 1: Faceted search and browse samples with WGS VCF data.
 
-1. The user is an anonymous scientist or data common participant looking for information pertaining samples with stage 4 lung cancers.
+1. The user is an anonymous scientist or data common participant looking for information pertaining to samples with WGS VCF data.
 2. The user goes to the DERIVA web-based faceted search portal provided by team Argon. 
-3. The user perform facet search for samples with stage 4 lung cancer by:
-	1. Click on "Tissue type" to expand the facet panel, then select "Lung."
-	2. Click on "Stage" to expand the facet panel, then select "4."
+3. The user perform facet search by:
+	1. Click on "Library Type" to expand the facet panel, then select "WGS."
+	2. Click on "WGS VCFS Files" to expand the facet panel, then select "All Records With Value."
 	
-	The search result shows 4 samples – 2 male smokers and 2 female non-smokers. Click [here](/chaise/recordset/#1/public:KC7%20Search%20Demo/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gGUAVAQQHEBREAGhCwAsUBLXJOeEAFhAF0BfasnTY8sQgFkiBGnUYscbBCAAyaCAHNeffkA) for the results page.	
-4. The user select selected the individual samples in the results and navigate to it for more details by clicking the eye icon associated with the samples.
+	The search result shows the first 25 of 635 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0AvvKA) for the results page.	
+4. The user selects the individual samples in the results and navigates to it for more details by clicking the eye icon associated with the samples.
 
-#### Use case 2: Export metadata and sequencing files of samples with stage 4 lung cancer in BDBag.
+#### Use case 2: Export metadata and VCF files of samples with samples with WGS VCF data in BDBag.
 
-1. The user is a data common participant looking for information pertaining samples with stage 4 lung cancers and want to export all the data (including sequencing files) relevant to the samples.
-2. The user follow Use case 1 to search for samples with stage 4 lung cancer.
+1. The user is a data common participant looking for information pertaining to samples with WGS VCF data and wants to export all the VCF data relevant to the samples.
+2. The user follows Use case 1 to search for samples with WGS VCF data.
 3. User logs in to the portal using Globus credentials to perform the export operation.
-4. The result pane on the right should show 4 samples – 2 male smokers and 2 female non-smokers. Click [here](/chaise/recordset/#1/public:KC7%20Search%20Demo/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gGUAVAQQHEBREAGhCwAsUBLXJOeEAFhAF0BfasnTY8sQgFkiBGnUYscbBCAAyaCAHNeffkA) for the results page.
+4. The result pane on the right should show first 25 of 635 samples. Click [here](/chaise/recordset/#1/demo:Samples/*::facets::N4IghgdgJiBcDaoDOB7ArgJwMYFM4gBkBJAIQCUBBMgTQH0AVagBQFEQAaELACxQEtcSOPBAB1AOIBlEAF0AvvKA) for the results page.
 5. Click "Export" at the upper right corner to export the search result in the BDBag.
 
-#### Use case 3: Create a virtual collection of samples consisting of stage 4 lung cancer
+#### Use case 3: Create a virtual collection of samples with WGS VCF data.
 
-1. The user is a data common participant who wants to create a virtual collection of samples with stage 4 lung cancers that can be cited or shared with others.
+1. The user is a data common participant who wants to create a virtual collection of samples with WGS VCF data that can be cited or shared with others.
 2. The user creates a collection describing the title and description of the collection.
 3. The user then adds samples to the collection by clicking "Add" on top of the Sample Collection table. Click [here](/chaise/recordset/#1/Common:Collection/RID=1-A52J) for the resulting Collection page.
 4. The user can remove memberships by clicking the "Unlink" button.
